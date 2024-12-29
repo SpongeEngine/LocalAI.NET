@@ -24,10 +24,10 @@ LocalAI.NET acts as a universal wrapper around local LLM providers, offering:
 - Privacy First: All AI operations run locally - your data never leaves your machine
 
 ## Supported Providers
-- KoboldCpp: Both native and OpenAI-compatible modes
-- Ollama: Run Llama 2, Code Llama, and other models locally (using OllamaSharp).
-- LM Studio: Local deployment of various open-source models
-- Text Generation WebUI: Popular web interface for running local models
+- [KoboldCpp](https://github.com/LostRuins/koboldcpp): Both native and OpenAI-compatible modes
+- [Ollama](https://github.com/ollama/ollama): Run Llama 2, Code Llama, and other models locally (using OllamaSharp).
+- [LM Studio](https://lmstudio.ai): Local deployment of various open-source models
+- [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui): Popular web interface for running local models
 
 ## Feature Comparison
 | Feature | LocalAI.NET | OpenAI.NET | LLamaSharp | OllamaSharp |
@@ -257,9 +257,3 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on:
 
 ## Support
 For issues and feature requests, please use the [GitHub issues page](https://github.com/SpongeEngine/LocalAI.NET/issues).
-
-## Related Projects
-- [KoboldCpp](https://github.com/LostRuins/koboldcpp)
-- [Ollama](https://github.com/ollama/ollama)
-- [LM Studio](https://lmstudio.ai)
-- [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui)
