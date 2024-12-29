@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+        <LangVersion>10.0</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        
+        <!-- Package Info -->
+        <PackageId>LocalAI.NET</PackageId>
+        <Title>LocalAI.NET</Title>
+        <Version>1.0.1</Version>
+        <Authors>Dan Clipca</Authors>
+        <Company>Sponge Engine</Company>
+        <Description>A modern .NET client library for interacting with local LLM providers like KoboldCpp, Ollama, LM Studio, and Text Generation WebUI. This library provides a simple, efficient, and cross-platform way to use local AI models in your .NET applications.</Description>
+
+        <!-- Package Details -->
+        <PackageTags>llm, ai, openai, localai, koboldcpp, ollama, lm-studio, text-generation-webui, 
+        local-llm, offline-ai, self-hosted-ai, llama, gpt, neural-network, machine-learning, 
+        text-generation, completion, chat, dotnet, csharp, cross-platform</PackageTags>
+        <PackageProjectUrl>https://github.com/SpongeEngine/LocalAI.NET</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/SpongeEngine/LocalAI.NET</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+
+        <!-- Documentation -->
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);CS1591</NoWarn>
+
+        <!-- Symbol Package -->
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
+    <!-- Package Dependencies -->
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.0" Condition="'$(TargetFramework)' == 'net6.0'" />
+        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.0" Condition="'$(TargetFramework)' == 'net7.0'" />
+        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.0" Condition="'$(TargetFramework)' == 'net8.0'" />
+        
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" Condition="'$(TargetFramework)' == 'net6.0'" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" Condition="'$(TargetFramework)' == 'net7.0'" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" Condition="'$(TargetFramework)' == 'net8.0'" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="OllamaSharp" Version="4.0.11" />
+        <PackageReference Include="Polly" Version="8.5.0" />
+        <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+    </ItemGroup>
+
+    <!-- Include README in the package -->
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Client\Extensions\" />
+    </ItemGroup>
+</Project>

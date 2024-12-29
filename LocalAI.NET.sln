@@ -1,0 +1,21 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalAI.NET", "LocalAI.NET\LocalAI.NET.csproj", "{3AA31654-601E-4A2D-ABAB-66B2C99C9886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalAI.NET.Tests", "LocalAI.NET.Tests\LocalAI.NET.Tests.csproj", "{B4C06852-1A11-45B9-8E83-CF7ABEE36F12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AA31654-601E-4A2D-ABAB-66B2C99C9886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA31654-601E-4A2D-ABAB-66B2C99C9886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA31654-601E-4A2D-ABAB-66B2C99C9886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA31654-601E-4A2D-ABAB-66B2C99C9886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C06852-1A11-45B9-8E83-CF7ABEE36F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C06852-1A11-45B9-8E83-CF7ABEE36F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C06852-1A11-45B9-8E83-CF7ABEE36F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C06852-1A11-45B9-8E83-CF7ABEE36F12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
