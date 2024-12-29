@@ -9,12 +9,6 @@ A unified .NET client library for running Large Language Models locally. LocalAI
 
 - Run AI models locally without cloud dependencies
 - Switch between different local LLM providers without changing code
-- Build privacy-focused applications where data stays on-premise
-- Create cost-effective AI solutions without API fees
-
-📦 [View Package on NuGet](https://www.nuget.org/packages/LocalAI.NET)
-
-## Why LocalAI.NET?
 
 LocalAI.NET acts as a universal wrapper around local LLM providers, offering:
 - Single API: Use the same code regardless of the underlying LLM provider
@@ -23,11 +17,7 @@ LocalAI.NET acts as a universal wrapper around local LLM providers, offering:
 - Modern .NET: Async/await, streaming support, and comprehensive logging
 - Privacy First: All AI operations run locally - your data never leaves your machine
 
-## Supported Providers
-- [KoboldCpp](https://github.com/LostRuins/koboldcpp): Both native and OpenAI-compatible modes
-- [Ollama](https://github.com/ollama/ollama): Run Llama 2, Code Llama, and other models locally (using OllamaSharp).
-- [LM Studio](https://lmstudio.ai): Local deployment of various open-source models
-- [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui): Popular web interface for running local models
+📦 [View Package on NuGet](https://www.nuget.org/packages/LocalAI.NET)
 
 ## Feature Comparison
 | Feature | LocalAI.NET | OpenAI.NET | LLamaSharp | OllamaSharp |
@@ -45,6 +35,12 @@ LocalAI.NET acts as a universal wrapper around local LLM providers, offering:
 | Circuit Breaker | ✅ | ❌ | ❌ | ❌ |
 | .NET Standard 2.0 | ❌ | ✅ | ✅ | ✅ |
 | .NET 6.0+ | ✅ | ✅ | ✅ | ✅ |
+
+## Supported Providers
+- [KoboldCpp](https://github.com/LostRuins/koboldcpp): Both native and OpenAI-compatible modes
+- [Ollama](https://github.com/ollama/ollama): Run Llama 2, Code Llama, and other models locally (using OllamaSharp).
+- [LM Studio](https://lmstudio.ai): Local deployment of various open-source models
+- [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui): Popular web interface for running local models
 
 ## Installation
 Install LocalAI.NET via NuGet:
