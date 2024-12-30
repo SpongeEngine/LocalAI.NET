@@ -5,7 +5,7 @@
 [![.NET](https://img.shields.io/badge/.NET-6.0%20%7C%207.0%20%7C%208.0%2B-512BD4)](https://dotnet.microsoft.com/download)
 [![Tests](https://github.com/SpongeEngine/LocalAI.NET/actions/workflows/test.yml/badge.svg)](https://github.com/SpongeEngine/LocalAI.NET/actions/workflows/test.yml)
 
-A unified .NET client library for running Large Language Models locally. LocalAI.NET provides a single, consistent API for interacting with popular local LLM providers like KoboldCpp, Ollama, LM Studio, and Text Generation WebUI. Perfect for developers who want to:
+A unified .NET client library for running LLMs (Large Language Models) locally. LocalAI.NET provides a single, consistent API for interacting with popular local LLM providers like KoboldCpp, Ollama, LM Studio, and Text Generation WebUI. Perfect for developers who want to:
 
 - Run AI models locally without cloud dependencies
 - Switch between different local LLM providers without changing code
